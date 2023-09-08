@@ -14,31 +14,7 @@ jobs:
       fail-fast: false
       matrix:
         platform:
-          - ak3918ev300
-          - dm36x
-          - fh8852v100
-          - fh8852v200
-          - gk7102
-          - gm8136
           - hi3516cv100
-          - hi3516cv200
-          - hi3516cv300
-          - hi3516cv500
-          - hi3516ev200
-          - hi3519v101
-          - hi3536cv100
-          - msc313e
-          - msc316dc
-          - msc316dm
-          - nt98562
-          - rv1126
-          - s3l
-          - ssc335
-          - ssc338q
-          - t31
-          - t40
-          - xm510
-          - xm530
 
     steps:
       - name: Checkout source
